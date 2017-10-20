@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html, body {
+  position: relative;
+  width: 100%; }
+
+.top {
+  width: 100%;
+  display: flex; }
+  .top img {
+    width: 2.16rem;
+    height: 0.72rem;
+    padding: 0.16rem 0;
+    margin-left: 0.18rem; }
+  .top .zi {
+    font-size: 32px;
+    color: #000;
+    margin-left: 0.93rem;
+    margin-top: 0.37rem;
+    overflow: hidden; }
+  .top div {
+    display: flex;
+    position: absolute;
+    right: 0.18rem;
+    margin-top: 0.15rem; }
+    .top div span {
+      display: flex;
+      flex-direction: column;
+      height: 0.45rem;
+      padding: 0 0.17rem;
+      position: relative;
+      overflow: hidden; }
+      .top div span p {
+        font-size: 0.22rem;
+        color: #999;
+        position: absolute;
+        top: 0.4rem;
+        overflow: hidden; }
+    .top div .icon_b {
+      position: absolute;
+      right: 0.4rem; }
+
+.tu {
+  width: 100%;
+  height: 3rem; }
+  .tu img {
+    width: 100%;
+    height: 100%; }
+
+.shen {
+  width: auto;
+  margin: 0 16px; }
+  .shen p {
+    font-size: 32px;
+    color: #000;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 0.42rem;
+    overflow: hidden; }
+  .shen .xian {
+    width: 100%;
+    height: 0.05rem;
+    background: #39c893;
+    position: relative;
+    margin-top: 0.42rem; }
+    .shen .xian img {
+      width: 0.75rem;
+      height: 0.25rem;
+      position: absolute;
+      left: 3.32rem;
+      top: -0.05rem; }
+
+.modelzi {
+  width: auto;
+  margin: 0 16px;
+  padding: 0.1rem 0 0.38rem 0;
+  box-sizing: border-box; }
+  .modelzi p {
+    font-size: 28px;
+    color: #333;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+    overflow: hidden; }
+
+.bactu {
+  width: auto;
+  height: 7rem;
+  margin: 0 16px; }
+  .bactu img {
+    width: 100%;
+    height: 100%; }
+
+.rexian {
+  width: auto;
+  margin: 0 16px;
+  display: flex;
+  margin: 0 auto; }
+  .rexian p {
+    font-size: 0.28rem;
+    color: #333;
+    margin-top: 0.7rem;
+    overflow: hidden; }
+    .rexian p span {
+      margin-left: 1.7rem;
+      color: #39c893;
+      overflow: hidden; }
+
+.dao {
+  width: auto;
+  margin: 0 16px;
+  margin-top: 0.35rem;
+  display: flex; }
+  .dao li {
+    width: 25%;
+    text-align: center;
+    font-size: 0.28rem;
+    color: #333;
+    border-right: 1px solid #eee; }
+
+.bottom {
+  width: 100%;
+  text-align: center;
+  padding: 0.3rem 0;
+  box-sizing: border-box;
+  border-top: 1px solid #eee; }
+  .bottom p {
+    font-size: 21px;
+    color: #333;
+    overflow: hidden; }
+
+.ditu {
+  width: 100%;
+  height: 0.38rem;
+  display: flex; }
+  .ditu img {
+    width: 100%;
+    height: 100%; }
+
+.yuan {
+  width: 0.9rem;
+  height: 0.9rem;
+  border: 1px solid #dedede;
+  border-radius: 0.5rem;
+  position: absolute;
+  bottom: 2.35rem;
+  right: 0.17rem;
+  text-align: center; }
+  .yuan span {
+    font-size: 0.4rem;
+    color: #9c9c9c;
+    position: absolute;
+    bottom: 0.22rem;
+    left: 0.25rem;
+    overflow: hidden; }
+
+/*# sourceMappingURL=fourteen.css.map */

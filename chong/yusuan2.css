@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html, body {
+  position: relative;
+  width: 100%; }
+
+.top {
+  width: 100%;
+  display: flex; }
+  .top img {
+    width: 2.16rem;
+    height: 0.72rem;
+    padding: 0.16rem 0;
+    margin-left: 0.18rem; }
+  .top .zi {
+    font-size: 32px;
+    color: #000;
+    margin-left: 0.93rem;
+    margin-top: 0.37rem; }
+  .top div {
+    display: flex;
+    position: absolute;
+    right: 0.18rem;
+    margin-top: 0.15rem; }
+    .top div span {
+      display: flex;
+      flex-direction: column;
+      height: 0.45rem;
+      padding: 0 0.17rem;
+      position: relative; }
+      .top div span p {
+        font-size: 0.22rem;
+        color: #999;
+        position: absolute;
+        top: 0.4rem; }
+    .top div .icon_b {
+      position: absolute;
+      right: 0.4rem; }
+
+#banner {
+  width: 100%;
+  height: 2.54rem; }
+  #banner img {
+    width: 100%;
+    height: 100%; }
+
+.list {
+  width: auto;
+  margin: 0 16px;
+  display: flex;
+  flex-direction: column; }
+  .list .list_zi {
+    display: inline-block;
+    display: flex;
+    width: 100%;
+    height: 0.46rem;
+    background: #eee;
+    font-size: 24px;
+    color: #000;
+    margin-top: 0.2rem;
+    padding-left: 0.1rem;
+    box-sizing: border-box;
+    line-height: 0.46rem; }
+  .list p {
+    font-size: 36px;
+    color: #000;
+    text-align: center;
+    margin-top: 0.36rem; }
+  .list div {
+    display: flex;
+    text-align: center; }
+    .list div span {
+      display: flex;
+      margin-left: 1.75rem; }
+
+.xian {
+  width: auto;
+  margin: 0 16px;
+  height: 2px;
+  width: 100%;
+  background: #eee;
+  margin: 0.3rem 0;
+  box-sizing: border-box; }
+
+.room {
+  width: auto;
+  margin: 0 16px;
+  display: flex;
+  flex-wrap: wrap; }
+  .room li {
+    width: 1.62rem;
+    height: 0.32rem;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #eaeaea;
+    border-radius: 0.2px;
+    font-size: 24px;
+    margin-right: 0.12rem;
+    color: #E3E3E3; }
+
+.daoyu {
+  width: auto;
+  margin: 0 16px;
+  margin-top: 0.36rem; }
+  .daoyu p {
+    font-size: 24px;
+    caption-side: #666; }
+  .daoyu p:first-child {
+    text-indent: 0.35rem; }
+
+.tu {
+  width: auto;
+  margin: 0 16px; }
+  .tu img {
+    width: 5.28rem;
+    height: 3.53rem;
+    margin: 0.3rem 1.18rem 0.5rem 1.04rem; }
+
+.dian {
+  width: auto;
+  margin: 0 16px;
+  height: 0.7rem;
+  border: 1px solid #70d5ae;
+  font-size: 36px;
+  color: #70d5ae;
+  text-align: center;
+  line-height: 0.7rem; }
+
+.twoyuan {
+  width: auto;
+  margin: 0 16px;
+  display: flex; }
+  .twoyuan div {
+    text-align: center;
+    padding: 0.4rem 0;
+    box-sizing: border-box; }
+    .twoyuan div li {
+      width: 1rem;
+      height: 1rem;
+      border: 2px solid #feb605;
+      border-radius: 50%;
+      position: relative;
+      margin-left: 1.84rem; }
+      .twoyuan div li span {
+        font-size: 58px;
+        color: #feb605;
+        position: absolute;
+        top: 0.16rem;
+        left: 0.2rem; }
+    .twoyuan div p {
+      font-size: 24px;
+      color: #feb605;
+      margin-left: 1.84rem; }
+
+.list_ab {
+  width: 100%;
+  display: flex;
+  padding: 0.4rem 0;
+  box-sizing: border-box;
+  position: relative; }
+  .list_ab img {
+    width: 0.05rem;
+    height: 0.42rem;
+    position: absolute;
+    left: 0.18rem; }
+  .list_ab p {
+    font-size: 0.36rem;
+    color: #000;
+    position: absolute;
+    left: 0.35rem; }
+
+.box {
+  width: 7.16rem;
+  display: flex;
+  margin: 0 auto;
+  height: 1.45rem;
+  margin-top: 0.36rem; }
+  .box img {
+    width: 1.9rem;
+    height: 1.45rem; }
+  .box .sbox {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0.22rem; }
+    .box .sbox p {
+      font-size: 0.36rem;
+      color: #000; }
+    .box .sbox div {
+      margin-top: 0.6rem; }
+      .box .sbox div span {
+        display: flex;
+        font-size: 0.28rem;
+        color: #999;
+        margin-top: 0.22rem; }
+
+.zi {
+  width: 7.16rem;
+  margin-bottom: 0.36rem;
+  margin: 0 auto;
+  position: relative; }
+  .zi p {
+    font-size: 0.28rem;
+    color: #333;
+    margin-top: 0.36rem; }
+  .zi p:first-child {
+    text-indent: 0.55rem; }
+  .zi .yuan {
+    width: 0.9rem;
+    height: 0.9rem;
+    border: 1px solid #dedede;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 2.35rem;
+    right: 0.17rem;
+    text-align: center; }
+    .zi .yuan span {
+      font-size: 0.4rem;
+      color: #9c9c9c;
+      position: absolute;
+      bottom: 0.22rem;
+      left: 0.25rem; }
+
+.rexian {
+  width: 7.16rem;
+  display: flex;
+  margin: 0 auto; }
+  .rexian p {
+    font-size: 0.28rem;
+    color: #333;
+    margin-top: 0.7rem; }
+    .rexian p span {
+      margin-left: 1.7rem;
+      color: #39c893; }
+
+.dao {
+  width: 7.16rem;
+  margin: 0 auto;
+  margin-top: 0.35rem;
+  display: flex; }
+  .dao li {
+    width: 25%;
+    text-align: center;
+    font-size: 0.28rem;
+    color: #333;
+    border: 1px solid #60d4a8; }
+
+.div {
+  width: 100%;
+  height: 1.06rem;
+  background: #333;
+  display: flex;
+  position: relative; }
+  .div .div_a {
+    width: 0.5rem;
+    height: 0.5rem; }
+  .div .div_b {
+    width: 4.2rem;
+    height: 0.9rem; }
+  .div span {
+    display: inline-block;
+    width: 1.75rem;
+    height: 0.5rem;
+    background: #feb605;
+    font-size: 0.23rem;
+    color: white;
+    position: absolute;
+    top: 0.25rem;
+    right: 0.37rem;
+    text-align: center;
+    line-height: 0.5rem;
+    border-radius: 0.7rem; }
+
+.last {
+  width: 100%;
+  height: 0.78rem;
+  display: flex; }
+  .last img {
+    width: 100%;
+    height: 100%; }
+
+.zhong {
+  width: auto;
+  margin: 0 16px;
+  height: 4.47rem;
+  background: #333333;
+  opacity: 0.8;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 10.6rem; }
+  .zhong li {
+    width: 33.3%;
+    text-align: center;
+    margin-top: 0.8rem; }
+    .zhong li img {
+      width: 1.45rem;
+      height: 1.35rem; }
+    .zhong li p {
+      font-size: 33px;
+      color: white; }
+  .zhong .quxiao {
+    width: 5.56rem;
+    height: 0.8rem;
+    margin-left: 0.68rem;
+    background: white;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    line-height: 0.8rem;
+    border-radius: 0.2rem; }
+
+/*# sourceMappingURL=yusuan2.css.map */

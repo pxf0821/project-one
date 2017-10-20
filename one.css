@@ -1,0 +1,421 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.top {
+  width: 100%;
+  display: flex; }
+  .top img {
+    width: 2.16rem;
+    height: 0.72rem;
+    padding: 0.16rem 0;
+    margin-left: 0.18rem; }
+  .top div {
+    display: flex;
+    position: absolute;
+    right: 0.18rem;
+    margin-top: 0.15rem; }
+    .top div span {
+      display: flex;
+      flex-direction: column;
+      height: 0.45rem;
+      padding: 0 0.17rem;
+      position: relative; }
+      .top div span p {
+        font-size: 0.22rem;
+        color: #999;
+        position: absolute;
+        top: 0.4rem; }
+    .top div .icon_b {
+      position: absolute;
+      right: 0.4rem; }
+
+#banner img {
+  width: 100%;
+  height: 2.36rem; }
+
+.nav {
+  width: 7.16rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0.36rem  0.17rem 0.4rem 0.17rem;
+  box-sizing: border-box; }
+  .nav li {
+    width: 25%;
+    text-align: center; }
+    .nav li img {
+      height: 1.2rem; }
+    .nav li p {
+      font-size: 0.28rem;
+      color: #333;
+      margin-top: 0.22rem; }
+
+.kong {
+  width: 100%;
+  height: 0.18rem;
+  background: #f4f4f4; }
+
+.list_a {
+  width: 100%;
+  display: flex;
+  padding: 0.32rem 0;
+  box-sizing: border-box;
+  position: relative; }
+  .list_a img {
+    width: 0.05rem;
+    height: 0.42rem;
+    position: absolute;
+    left: 0.18rem; }
+  .list_a p {
+    font-size: 0.36rem;
+    color: #000;
+    position: absolute;
+    left: 0.35rem; }
+  .list_a span {
+    font-size: 0.24rem;
+    color: #999;
+    position: absolute;
+    left: 2.05rem; }
+
+#banner_b {
+  width: 7.13rem;
+  height: 4.02rem;
+  margin: 0 auto;
+  margin-top: 0.32rem; }
+  #banner_b img {
+    width: 100%;
+    height: 100%; }
+
+.list_b {
+  width: 100%;
+  display: flex;
+  padding: 0.36rem 0;
+  box-sizing: border-box; }
+  .list_b span {
+    display: flex; }
+    .list_b span img {
+      width: 0.36rem;
+      height: 0.36rem;
+      margin-left: 0.2rem; }
+    .list_b span p {
+      font-size: 0.28rem;
+      color: #000;
+      margin-left: 0.12rem; }
+
+.list_aa {
+  width: 100%;
+  display: flex;
+  margin-top: 0.3rem;
+  position: relative; }
+  .list_aa img {
+    width: 0.05rem;
+    height: 0.42rem;
+    position: absolute;
+    left: 0.18rem; }
+  .list_aa p {
+    font-size: 0.36rem;
+    color: #000;
+    position: absolute;
+    left: 0.35rem; }
+  .list_aa span {
+    font-size: 0.24rem;
+    color: #999;
+    position: absolute;
+    left: 2.05rem; }
+
+.inp {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  margin-left: 0.85rem; }
+  .inp input {
+    width: 5.86rem;
+    height: 0.7rem;
+    border: 1px solid darkgray;
+    border-radius: 0.1rem;
+    font-size: 0.28rem;
+    color: #cacaca; }
+  .inp .yel {
+    width: 5.86rem;
+    height: 0.7rem;
+    background: #feb605;
+    margin-top: 0.5rem; }
+    .inp .yel p {
+      text-align: center;
+      color: white;
+      font-size: 0.36rem;
+      line-height: 0.7rem; }
+
+.list_ab {
+  width: 100%;
+  display: flex;
+  padding: 0.4rem 0;
+  box-sizing: border-box;
+  position: relative; }
+  .list_ab img {
+    width: 0.05rem;
+    height: 0.42rem;
+    position: absolute;
+    left: 0.18rem; }
+  .list_ab p {
+    font-size: 0.36rem;
+    color: #000;
+    position: absolute;
+    left: 0.35rem; }
+
+.ziliao {
+  width: 100%;
+  display: flex;
+  margin-top: 0.4rem;
+  margin-bottom: 0.36rem; }
+  .ziliao li {
+    width: 25%;
+    text-align: center; }
+    .ziliao li img {
+      width: 1.4rem; }
+    .ziliao li p {
+      font-size: 0.36rem;
+      color: #000;
+      margin-bottom: -0.25rem;
+      box-sizing: border-box; }
+    .ziliao li span {
+      display: inline-block;
+      width: 1.2rem;
+      height: 0.32rem;
+      background: #39c893;
+      border-radius: 0.1rem;
+      font-size: 0.24rem;
+      color: white;
+      text-align: center;
+      line-height: 0.32rem; }
+
+.liang {
+  width: 100%;
+  display: flex;
+  width: 7.16rem;
+  height: 0.7rem;
+  border: 1px solid darkgray;
+  margin: 0 auto;
+  margin-bottom: 0.35rem; }
+  .liang span {
+    display: flex;
+    display: inline-block;
+    width: 50%;
+    border-right: 1px solid darkgray;
+    text-align: center;
+    line-height: 0.7rem;
+    position: relative; }
+    .liang span p {
+      font-size: 0.28rem;
+      color: #39c893;
+      position: absolute;
+      left: 1.15rem; }
+    .liang span img {
+      width: 0.28rem;
+      height: 0.28rem;
+      position: absolute;
+      left: 2.14rem;
+      top: 0.2rem; }
+
+.tuwai {
+  width: 7.16rem;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  position: relative; }
+  .tuwai img {
+    width: 100%;
+    height: 5.06rem;
+    margin-top: 0.36rem; }
+  .tuwai span {
+    display: inline-block;
+    width: 0.7rem;
+    height: 0.42rem;
+    background: #000;
+    opacity: 0.5;
+    font-size: 0.26rem;
+    color: #d2d2d2;
+    position: absolute;
+    top: 4.54rem;
+    right: 0.2rem;
+    text-align: center;
+    line-height: 0.42rem; }
+  .tuwai .tuli {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; }
+    .tuwai .tuli img {
+      width: 3.54rem;
+      height: 2.5rem;
+      margin-top: 0.08rem; }
+
+.liang_b {
+  width: 100%;
+  display: flex;
+  width: 7.16rem;
+  height: 0.7rem;
+  border: 1px solid darkgray;
+  margin: 0 auto;
+  margin: 0.36rem 0;
+  box-sizing: border-box;
+  margin-bottom: 0.36rem; }
+  .liang_b span {
+    display: flex;
+    display: inline-block;
+    width: 50%;
+    border-right: 1px solid darkgray;
+    text-align: center;
+    line-height: 0.7rem;
+    position: relative; }
+    .liang_b span p {
+      font-size: 0.28rem;
+      color: #39c893;
+      position: absolute;
+      left: 1.15rem; }
+    .liang_b span img {
+      width: 0.28rem;
+      height: 0.28rem;
+      position: absolute;
+      left: 2.14rem;
+      top: 0.2rem; }
+
+.gongdi {
+  width: 7.16rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.36rem; }
+  .gongdi img {
+    width: 100%;
+    height: 5.43rem; }
+  .gongdi div {
+    display: flex;
+    margin-top: 0.25rem; }
+    .gongdi div p {
+      font-size: 0.28rem;
+      color: #000; }
+    .gongdi div span {
+      display: inline-block;
+      width: 1.12rem;
+      height: 0.3rem;
+      background: #39c893;
+      text-align: center;
+      line-height: 0.3rem;
+      color: white;
+      font-size: 0.28rem;
+      margin-left: 0.28rem; }
+
+.box {
+  width: 7.16rem;
+  display: flex;
+  margin: 0 auto;
+  height: 1.45rem;
+  margin-top: 0.36rem; }
+  .box img {
+    width: 1.9rem;
+    height: 1.45rem; }
+  .box .sbox {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0.22rem; }
+    .box .sbox p {
+      font-size: 0.36rem;
+      color: #000; }
+    .box .sbox div {
+      margin-top: 0.6rem; }
+      .box .sbox div span {
+        display: flex;
+        font-size: 0.28rem;
+        color: #999;
+        margin-top: 0.22rem; }
+
+.zi {
+  width: 7.16rem;
+  margin-bottom: 0.36rem;
+  margin: 0 auto;
+  position: relative; }
+  .zi p {
+    font-size: 0.28rem;
+    color: #333;
+    margin-top: 0.36rem; }
+  .zi p:first-child {
+    text-indent: 0.55rem; }
+  .zi .yuan {
+    width: 0.9rem;
+    height: 0.9rem;
+    border: 1px solid #dedede;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 2.35rem;
+    right: 0.17rem;
+    text-align: center; }
+    .zi .yuan span {
+      font-size: 0.4rem;
+      color: #9c9c9c;
+      position: absolute;
+      bottom: 0.22rem;
+      left: 0.25rem; }
+
+.rexian {
+  width: 7.16rem;
+  display: flex;
+  margin: 0 auto; }
+  .rexian p {
+    font-size: 0.28rem;
+    color: #333;
+    margin-top: 0.7rem; }
+    .rexian p span {
+      margin-left: 1.7rem;
+      color: #39c893; }
+
+.dao {
+  width: 7.16rem;
+  margin: 0 auto;
+  margin-top: 0.35rem;
+  display: flex; }
+  .dao li {
+    width: 25%;
+    text-align: center;
+    font-size: 0.28rem;
+    color: #333;
+    border: 1px solid #60d4a8; }
+
+.div {
+  width: 100%;
+  height: 1.06rem;
+  background: #333;
+  display: flex;
+  position: relative; }
+  .div .div_a {
+    width: 0.5rem;
+    height: 0.5rem; }
+  .div .div_b {
+    width: 4.2rem;
+    height: 0.9rem; }
+  .div span {
+    display: inline-block;
+    width: 1.75rem;
+    height: 0.5rem;
+    background: #feb605;
+    font-size: 0.23rem;
+    color: white;
+    position: absolute;
+    top: 0.25rem;
+    right: 0.37rem;
+    text-align: center;
+    line-height: 0.5rem;
+    border-radius: 0.7rem; }
+
+.last {
+  width: 100%;
+  height: 0.78rem;
+  display: flex; }
+  .last img {
+    width: 100%;
+    height: 100%; }
+
+/*# sourceMappingURL=one.css.map */

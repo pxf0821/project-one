@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+body {
+  width: 7.5rem; }
+
+@media screen and (max-width: 321px) {
+  .m-navlist {
+    font-size: 15px; } }
+@media screen and (min-width: 321px) and (max-width: 400px) {
+  .m-navlist {
+    font-size: 16px; } }
+@media screen and (min-width: 400px) {
+  .m-navlist {
+    font-size: 18px; } }
+.top {
+  width: 100%;
+  display: flex; }
+  .top img {
+    width: 2.16rem;
+    height: 0.72rem;
+    padding: 0.16rem 0;
+    margin-left: 0.18rem; }
+  .top .zi {
+    font-size: 33px;
+    color: #000;
+    margin-left: 0.93rem;
+    margin-top: 0.37rem; }
+  .top div {
+    display: flex;
+    position: absolute;
+    right: 0.18rem;
+    margin-top: 0.15rem; }
+    .top div span {
+      display: flex;
+      flex-direction: column;
+      height: 0.45rem;
+      padding: 0 0.17rem;
+      position: relative; }
+      .top div span p {
+        font-size: 20px;
+        color: #999;
+        position: absolute;
+        top: 0.4rem; }
+    .top div .icon_b {
+      position: absolute;
+      right: 0.4rem; }
+
+.tu {
+  width: 100%;
+  height: 2.5rem; }
+  .tu img {
+    width: 100%;
+    height: 100%; }
+
+.dazi {
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+  color: #000;
+  margin-top: 0.36rem; }
+
+.xian {
+  width: 100%;
+  height: 2px;
+  background: #d7d7d7;
+  position: relative;
+  margin-top: 0.3rem; }
+  .xian img {
+    width: 0.78rem;
+    height: 0.26rem;
+    position: absolute;
+    top: -0.1rem;
+    left: 3.35rem; }
+
+.box {
+  width: 5.86rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.36rem; }
+  .box input {
+    width: 5.82rem;
+    height: 0.7rem;
+    border: 1px solid #eee;
+    font-size: 25px;
+    position: relative; }
+  .box input::-webkit-input-placeholder {
+    color: #000; }
+  .box .sbox {
+    width: 100%;
+    display: flex; }
+    .box .sbox input {
+      width: 2.8rem; }
+  .box .sanbox {
+    width: 100%;
+    display: flex; }
+    .box .sanbox input {
+      width: 1.8rem; }
+
+.liji {
+  width: 5.86rem;
+  height: 0.72rem;
+  margin: 0 auto;
+  background: #fcb605;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  line-height: 0.72rem;
+  margin-top: 0.24rem; }
+
+.xudiv {
+  width: 7.13rem;
+  margin-left: 0.16rem;
+  box-sizing: border-box;
+  height: 3.8rem;
+  border: 1px dashed #70d5ae;
+  margin-top: 0.54rem;
+  position: relative; }
+  .xudiv .zhuang {
+    font-size: 32px;
+    color: #000;
+    position: absolute;
+    left: 2rem;
+    top: -0.2rem; }
+  .xudiv .jia span {
+    font-size: 25px;
+    color: #eee;
+    display: flex;
+    margin-left: 1.68rem;
+    margin-top: 0.5rem; }
+  .xudiv .jia p {
+    font-size: 25px;
+    text-align: center; }
+  .xudiv .li {
+    width: 5.82rem;
+    height: 0.68rem;
+    border-radius: 0.1rem;
+    border: 1px solid #3ac994;
+    font-size: 27px;
+    color: #3ac994;
+    text-align: center;
+    line-height: 0.68rem;
+    margin-top: 0.36rem; }
+
+.kong {
+  width: 100%;
+  height: 0.17rem;
+  background: #eee;
+  margin: 0.36rem 0; }
+
+.wrap {
+  width: auto;
+  margin: 0 16px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.48rem;
+  text-align: center; }
+  .wrap li {
+    width: 33.3%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #eee;
+    padding: 0.16rem;
+    box-sizing: border-box; }
+    .wrap li img {
+      width: 1rem;
+      height: 1rem;
+      margin-left: 0.56rem; }
+    .wrap li p {
+      font-size: 28px;
+      color: #000;
+      margin-top: 0.2rem; }
+    .wrap li span {
+      font-size: 24px;
+      color: #666;
+      margin-top: 0.1rem; }
+
+.zi {
+  width: auto;
+  margin: 0 16px;
+  margin-bottom: 0.36rem;
+  margin: 0 auto;
+  position: relative; }
+  .zi p {
+    font-size: 0.28rem;
+    color: #333;
+    margin-top: 0.36rem; }
+  .zi p:first-child {
+    text-indent: 0.55rem; }
+  .zi .yuan {
+    width: 0.9rem;
+    height: 0.9rem;
+    border: 1px solid #dedede;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 2.35rem;
+    right: 0.17rem;
+    text-align: center; }
+    .zi .yuan span {
+      font-size: 0.4rem;
+      color: #9c9c9c;
+      position: absolute;
+      bottom: 0.22rem;
+      left: 0.25rem; }
+
+.rexian {
+  width: auto;
+  margin: 0 16px;
+  display: flex;
+  margin: 0 auto; }
+  .rexian p {
+    font-size: 0.28rem;
+    color: #333;
+    margin-top: 0.7rem; }
+    .rexian p span {
+      margin-left: 1.7rem;
+      color: #39c893; }
+
+.dao {
+  width: auto;
+  margin: 0 16px;
+  margin-top: 0.35rem;
+  display: flex; }
+  .dao li {
+    width: 25%;
+    text-align: center;
+    font-size: 0.28rem;
+    color: #333;
+    border-right: 1px solid #eee; }
+
+.bottom {
+  width: 100%;
+  text-align: center;
+  padding: 0.3rem 0;
+  box-sizing: border-box;
+  border-top: 1px solid #eee; }
+  .bottom p {
+    font-size: 21px;
+    color: #333; }
+
+.ditu {
+  width: 100%;
+  height: 0.38rem;
+  display: flex; }
+  .ditu img {
+    width: 100%;
+    height: 100%; }
+
+/*# sourceMappingURL=weibo.css.map */

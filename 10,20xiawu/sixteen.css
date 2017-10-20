@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html, body {
+  position: relative;
+  width: 100%; }
+
+.top {
+  width: 100%;
+  display: flex; }
+  .top img {
+    width: 2.16rem;
+    height: 0.72rem;
+    padding: 0.16rem 0;
+    margin-left: 0.18rem; }
+  .top .zi {
+    font-size: 32px;
+    color: #000;
+    margin-left: 0.93rem;
+    margin-top: 0.37rem; }
+  .top div {
+    display: flex;
+    position: absolute;
+    right: 0.18rem;
+    margin-top: 0.15rem; }
+    .top div span {
+      display: flex;
+      flex-direction: column;
+      height: 0.45rem;
+      padding: 0 0.17rem;
+      position: relative; }
+      .top div span p {
+        font-size: 0.22rem;
+        color: #999;
+        position: absolute;
+        top: 0.4rem; }
+    .top div .icon_b {
+      position: absolute;
+      right: 0.4rem; }
+
+.tu {
+  width: 100%;
+  height: 2.48rem; }
+  .tu img {
+    width: 100%;
+    height: 100%; }
+
+.tuer {
+  width: 100%;
+  position: relative; }
+  .tuer img {
+    width: 100%; }
+  .tuer p {
+    font-size: 36px;
+    color: #ff4450;
+    overflow: hidden;
+    position: absolute; }
+  .tuer span {
+    font-size: 26px;
+    color: #000;
+    overflow: hidden;
+    position: absolute; }
+
+.tusan {
+  width: 100%;
+  position: relative; }
+  .tusan img {
+    width: 100%; }
+  .tusan p {
+    font-size: 36px;
+    color: #5ab7f8;
+    overflow: hidden;
+    position: absolute; }
+  .tusan span {
+    font-size: 26px;
+    color: #000;
+    overflow: hidden;
+    position: absolute; }
+
+.tusi {
+  width: 100%;
+  position: relative; }
+  .tusi img {
+    width: 100%; }
+  .tusi p {
+    font-size: 36px;
+    color: #7a73e8;
+    overflow: hidden;
+    position: absolute; }
+  .tusi span {
+    font-size: 26px;
+    color: #000;
+    overflow: hidden;
+    position: absolute; }
+
+.zi {
+  width: auto;
+  margin: 0 16px;
+  margin-bottom: 0.36rem;
+  margin: 0 auto;
+  position: relative; }
+  .zi p {
+    margin-left: 0.28rem;
+    font-size: 0.25rem;
+    color: #333;
+    margin-top: 0.36rem;
+    overflow: hidden; }
+  .zi p:first-child {
+    text-indent: 0.55rem; }
+  .zi .yuan {
+    width: 0.9rem;
+    height: 0.9rem;
+    border: 1px solid #dedede;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 2.35rem;
+    right: 0.17rem;
+    text-align: center; }
+    .zi .yuan span {
+      font-size: 0.4rem;
+      color: #9c9c9c;
+      position: absolute;
+      bottom: 0.22rem;
+      left: 0.25rem; }
+
+.rexian {
+  width: auto;
+  margin: 0 16px;
+  display: flex;
+  margin: 0 auto; }
+  .rexian p {
+    font-size: 0.28rem;
+    color: #333;
+    margin-top: 0.7rem; }
+    .rexian p span {
+      margin-left: 1.7rem;
+      color: #39c893; }
+
+.dao {
+  width: auto;
+  margin: 0 16px;
+  margin-top: 0.35rem;
+  display: flex; }
+  .dao li {
+    width: 25%;
+    text-align: center;
+    font-size: 0.28rem;
+    color: #333;
+    border: 1px solid #60d4a8; }
+
+.div {
+  width: 100%;
+  height: 1.06rem;
+  background: #333;
+  display: flex;
+  position: relative; }
+  .div .div_a {
+    width: 0.5rem;
+    height: 0.5rem; }
+  .div .div_b {
+    width: 4.2rem;
+    height: 0.9rem; }
+  .div span {
+    display: inline-block;
+    width: 1.75rem;
+    height: 0.5rem;
+    background: #feb605;
+    font-size: 0.23rem;
+    color: white;
+    position: absolute;
+    top: 0.25rem;
+    right: 0.37rem;
+    text-align: center;
+    line-height: 0.5rem;
+    border-radius: 0.7rem; }
+
+.last {
+  width: 100%;
+  height: 0.78rem;
+  display: flex; }
+  .last img {
+    width: 100%;
+    height: 100%; }
+
+/*# sourceMappingURL=sixteen.css.map */

@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html, body {
+  position: relative;
+  width: 100%; }
+
+.top {
+  width: 100%;
+  display: flex; }
+  .top img {
+    width: 2.16rem;
+    height: 0.72rem;
+    padding: 0.16rem 0;
+    margin-left: 0.18rem; }
+  .top .zi {
+    font-size: 32px;
+    color: #000;
+    margin-left: 0.93rem;
+    margin-top: 0.37rem; }
+  .top div {
+    display: flex;
+    position: absolute;
+    right: 0.18rem;
+    margin-top: 0.15rem; }
+    .top div span {
+      display: flex;
+      flex-direction: column;
+      height: 0.45rem;
+      padding: 0 0.17rem;
+      position: relative; }
+      .top div span p {
+        font-size: 0.22rem;
+        color: #999;
+        position: absolute;
+        top: 0.4rem; }
+    .top div .icon_b {
+      position: absolute;
+      right: 0.4rem; }
+
+.touzi {
+  width: auto;
+  margin: 0 16px; }
+  .touzi .yihang {
+    width: 100%;
+    display: flex;
+    margin-top: 0.36rem; }
+    .touzi .yihang p {
+      font-size: 28px;
+      color: #000;
+      overflow: hidden; }
+    .touzi .yihang span {
+      width: 1.15rem;
+      height: 0.3rem;
+      background: #39c893;
+      font-size: 28px;
+      color: white;
+      border-radius: 0.2rem;
+      text-align: center;
+      line-height: 0.3rem;
+      margin-left: 0.22rem;
+      overflow: hidden; }
+  .touzi .erhang {
+    width: 100%;
+    display: flex;
+    margin-top: 0.3rem; }
+    .touzi .erhang p {
+      font-size: 24px;
+      color: #000;
+      overflow: hidden; }
+    .touzi .erhang span {
+      font-size: 24px;
+      color: #999;
+      overflow: hidden; }
+  .touzi .sanhang {
+    width: 100%;
+    display: flex;
+    margin-top: 0.3rem; }
+    .touzi .sanhang p {
+      font-size: 24px;
+      color: #000;
+      overflow: hidden; }
+    .touzi .sanhang span {
+      font-size: 24px;
+      color: #999;
+      overflow: hidden; }
+
+.list {
+  width: auto;
+  margin: 0 16px;
+  display: flex;
+  border: 1px solid #999;
+  border-radius: 0.2rem;
+  margin-top: 0.3rem; }
+  .list li {
+    width: 50%;
+    height: 0.7rem;
+    box-sizing: border-box;
+    position: relative; }
+    .list li span {
+      font-size: 32px;
+      color: #1a9af4;
+      position: absolute;
+      left: 0.94rem;
+      top: 0.2rem; }
+    .list li p {
+      font-size: 25px;
+      color: #1a9af4;
+      overflow: hidden;
+      position: absolute;
+      left: 1.37rem;
+      top: 0.2rem; }
+
+.gray {
+  width: 100%;
+  background: #eee;
+  margin-top: 0.36rem; }
+  .gray .name {
+    width: auto;
+    margin: 0 16px;
+    padding: 0.36rem 0;
+    box-sizing: border-box;
+    display: flex; }
+    .gray .name p {
+      font-size: 28px;
+      color: #000; }
+    .gray .name span {
+      font-size: 28px;
+      color: #39c893; }
+  .gray .box {
+    width: 100%; }
+    .gray .box .sbox {
+      width: 100%;
+      width: auto;
+      margin: 0 16px;
+      display: flex; }
+      .gray .box .sbox div {
+        text-align: center;
+        line-height: 0.6rem;
+        font-size: 28px;
+        color: white; }
+    .gray .box p {
+      font-size: 0.25rem;
+      color: #000;
+      overflow: hidden;
+      margin-top: 0.3rem;
+      margin-left: 1.04rem; }
+    .gray .box .men {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 0.24rem;
+      margin-left: 0.98rem; }
+      .gray .box .men img {
+        width: 27%;
+        height: 2.71rem;
+        margin-left: 0.06rem;
+        margin-top: 0.06rem; }
+
+.zi {
+  width: auto;
+  margin: 0 16px;
+  margin-bottom: 0.36rem;
+  margin: 0 auto;
+  position: relative; }
+  .zi p {
+    margin-left: 0.16rem;
+    font-size: 28px;
+    color: #333;
+    margin-top: 0.36rem;
+    overflow: hidden; }
+  .zi p:first-child {
+    text-indent: 0.55rem; }
+  .zi .yuan {
+    width: 0.9rem;
+    height: 0.9rem;
+    border: 1px solid #dedede;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 2.35rem;
+    right: 0.17rem;
+    text-align: center; }
+    .zi .yuan span {
+      font-size: 0.4rem;
+      color: #9c9c9c;
+      position: absolute;
+      bottom: 0.22rem;
+      left: 0.25rem; }
+
+.rexian {
+  width: auto;
+  margin: 0 16px;
+  display: flex;
+  margin: 0 auto; }
+  .rexian p {
+    font-size: 0.28rem;
+    color: #333;
+    margin-top: 0.7rem; }
+    .rexian p span {
+      margin-left: 1.7rem;
+      color: #39c893; }
+
+.dao {
+  width: auto;
+  margin: 0 16px;
+  margin-top: 0.35rem;
+  display: flex; }
+  .dao li {
+    width: 25%;
+    text-align: center;
+    font-size: 0.28rem;
+    color: #333;
+    border: 1px solid #60d4a8; }
+
+.div {
+  width: 100%;
+  height: 1.06rem;
+  background: #333;
+  display: flex;
+  position: relative; }
+  .div .div_a {
+    width: 0.5rem;
+    height: 0.5rem; }
+  .div .div_b {
+    width: 4.2rem;
+    height: 0.9rem; }
+  .div span {
+    display: inline-block;
+    width: 1.75rem;
+    height: 0.5rem;
+    background: #feb605;
+    font-size: 0.23rem;
+    color: white;
+    position: absolute;
+    top: 0.25rem;
+    right: 0.37rem;
+    text-align: center;
+    line-height: 0.5rem;
+    border-radius: 0.7rem; }
+
+.last {
+  width: 100%;
+  height: 0.78rem;
+  display: flex; }
+  .last img {
+    width: 100%;
+    height: 100%; }
+
+/*# sourceMappingURL=fifteen.css.map */

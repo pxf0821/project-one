@@ -1,0 +1,294 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html,body{
+    position: relative;
+    width: 100%;
+}
+.top{
+    width: 100%;
+    display: flex;
+    img{
+        width: 2.16rem;
+        height: 0.72rem;
+        padding: 0.16rem 0;
+        margin-left: 0.18rem;
+    }
+    .zi{
+     font-size: 32px;
+     color: #000;
+     margin-left: 0.93rem;
+     margin-top: 0.37rem;
+    }
+    div{
+        display: flex;
+        position: absolute;
+        right: 0.18rem;
+        margin-top: 0.15rem;
+        span{
+            display: flex;
+            flex-direction: column;
+            height: 0.45rem;
+            padding: 0 0.17rem;
+            position: relative;
+            p{
+                font-size: 0.22rem;
+                color: #999;
+                position: absolute;
+                top: 0.4rem;
+            }
+            
+        }
+        .icon_b{
+            position: absolute;
+            right: 0.4rem;
+        }
+    }
+}
+.touzi{
+    width: auto;
+    margin: 0 16px;
+    .yihang{
+        width: 100%;
+        display: flex;
+        margin-top: 0.36rem;
+        p{
+            font-size: 28px;
+            color: #000;
+            overflow: hidden;
+        }
+        span{
+            width: 1.15rem;
+            height: 0.3rem;
+            background: #39c893;
+            font-size: 28px;
+            color: white;
+            border-radius: 0.2rem;
+            text-align: center;
+            line-height: 0.3rem;
+            margin-left: 0.22rem;
+            overflow: hidden;
+        }
+    }
+    .erhang{
+        width: 100%;
+        display: flex;
+        margin-top: 0.3rem;
+        p{
+            font-size: 24px;
+            color: #000;
+            overflow: hidden;
+        }
+        span{
+            font-size: 24px;
+            color: #999;
+            overflow: hidden;
+        }
+    }
+    .sanhang{
+        width: 100%;
+        display: flex;
+        margin-top: 0.3rem;
+        p{
+            font-size: 24px;
+            color: #000;
+            overflow: hidden;
+        }
+        span{
+            font-size: 24px;
+            color: #999;
+            overflow: hidden;
+        }
+    }
+}
+.list{
+    width: auto;
+    margin: 0 16px;
+    display: flex;
+    border: 1px solid #999;
+    border-radius: 0.2rem;
+    margin-top: 0.3rem;
+    li{
+        width: 50%;
+        height: 0.7rem;
+        box-sizing: border-box;
+        position: relative;
+        span{
+            font-size: 32px;
+            color: #1a9af4;
+            position: absolute;
+            left: 0.94rem;
+            top: 0.2rem;
+        }
+        
+        p{
+            font-size: 25px;
+            color: #1a9af4;
+            overflow: hidden;
+            position: absolute;
+            left: 1.37rem;
+            top: 0.2rem;
+        }
+    }
+}
+.gray{
+    width: 100%;
+    background: #eee;
+    margin-top: 0.36rem;
+    .name{
+        width: auto;
+        margin: 0 16px;
+        padding: 0.36rem 0;
+        box-sizing: border-box;
+        display: flex;
+        p{
+            font-size: 28px;
+            color: #000;
+        }
+        span{
+            font-size: 28px;
+            color: #39c893;
+        }
+    }
+    .box{
+        width: 100%;
+        .sbox{
+            width: 100%;
+            width: auto;
+            margin: 0 16px;
+            display: flex;
+            div{
+                text-align: center;
+                line-height: 0.6rem;
+                font-size: 28px;
+                color: white;
+            }
+        }
+        p{
+            font-size: 0.25rem;
+            color: #000;
+            overflow: hidden;
+            margin-top: 0.3rem;
+            margin-left: 1.04rem;
+        }
+        .men{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 0.24rem;
+            margin-left: 0.98rem;
+            img{
+                width: 27%;
+                height: 2.71rem;
+                margin-left: 0.06rem;
+                margin-top: 0.06rem;
+            }
+        }
+    }
+}
+.zi{
+    width: auto;
+   margin: 0 16px;
+    margin-bottom: 0.36rem;
+    margin: 0 auto;
+   position: relative;
+    p{
+        margin-left: 0.16rem;
+        font-size: 28px;
+        color: #333;
+        margin-top: 0.36rem;
+        overflow: hidden;
+    }
+   
+    p:first-child{
+        text-indent: 0.55rem;
+    }
+    .yuan{
+        width: 0.9rem;
+        height: 0.9rem;
+        border: 1px solid #dedede;
+        border-radius: 0.5rem;
+        position: absolute;
+        top: 2.35rem;
+        right: 0.17rem;
+        text-align: center;
+        span{
+            font-size: 0.4rem;
+            color: #9c9c9c;
+            position: absolute;
+            bottom: 0.22rem;
+            left: 0.25rem;
+        }
+}
+
+}
+.rexian{
+    width: auto;
+   margin: 0 16px;
+    display: flex;
+    margin: 0 auto;
+    p{
+        font-size: 0.28rem;
+        color: #333;
+        margin-top: 0.7rem;
+        span{
+            margin-left: 1.7rem;
+            color: #39c893;
+        }
+    }
+}
+.dao{
+   width: auto;
+   margin: 0 16px;
+   margin-top: 0.35rem;
+   display: flex;
+   li{
+       width: 25%;
+       text-align: center;
+       font-size: 0.28rem;
+       color: #333;
+       border: 1px solid #60d4a8;
+   }
+}
+.div{
+    width: 100%;
+    height: 1.06rem;
+    background: #333;
+    display: flex;
+    position: relative;
+    .div_a{
+        width: 0.5rem;
+        height: 0.5rem;
+    }
+    .div_b{
+        width: 4.2rem;
+        height: 0.9rem;
+    }
+    span{
+        display: inline-block;
+        width: 1.75rem;
+        height: 0.5rem;
+        background: #feb605;
+        font-size: 0.23rem;
+        color: white;
+        position: absolute;
+        top: 0.25rem;
+        right: 0.37rem;
+        text-align: center;
+        line-height: 0.5rem;
+        border-radius: 0.7rem;
+    }
+}
+.last{
+    width: 100%;
+    height: 0.78rem;
+    display: flex;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
